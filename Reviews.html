@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+     header{
+            text-align: center;
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    main{
+        min-height: calc(100vh - 76px - 58.4px);
+        background-color: rgb(247, 247, 242);
+        color: grey;
+    }
+    img{
+            border-radius: 100px;
+            position: absolute;
+            top: 2%;
+            right: 1%;
+        }
+    ul{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 20px;
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            /* position: absolute; */
+            top: 15%;
+            background-color: rgb(240, 212, 2);
+        }
+    footer{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+.reviews{
+            padding: 10px;
+        }
+        .Sam{
+            border-radius: 1px;
+            position: absolute;
+            top: 190px;
+            right: 1356px;
+        }
+        .janwar{
+            border-radius: 1px;
+            position: absolute;
+            top: 389px;
+            right: 1356px;
+        }
+        .army{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#333;
+            margin-right: 700px;
+            margin-left: 190px;
+        }
+        .blood{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#333;
+            margin-right: 700px;
+            margin-left: 190px;
+        }
+        button{
+            border: 2px solid rgb(240, 212, 2);
+            border-radius: 7px;
+            padding: 5px;
+            background-color: rgb(240, 212, 2);
+        }
+        button:hover{
+            transform: scale(1.0);
+    transition: 0.1s;
+    background-color: grey;
+    border-color: grey;
+        }
+</style>
+<body>
+    <header>
+        <h1>Cineflix</h1>
+        <img src="Movie icon aesthetic black and white.jfif" alt="Cineflix" height="50px">
+    </header>
+    <nav>
+        <ul class="head">
+            <button type="button1" onclick="location.href='index.html'"><big><li class="home">Home</li></big></button>
+           <button type="button2" onclick="location.href='Reviews.html'"><big><li class="shows">Reviews</li></big></button>
+            <button type="button3" onclick="location.href='Interviews.html'"><big><li class="movies">Interviews</li></big></button>
+            <button type="button4" onclick="location.href='WebStories.html'"><big><li class="categories">Trailers</li></big></button>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <br>
+        <u><h1 class="reviews" style="font-family: Arial, Helvetica, sans-serif;">Reviews</h1></u>
+        <b><hr></b>
+        <img class="Sam" src="Sam.jpg" alt="Animal" height="175px" width="150px">
+        <h3 class="army"><u>SAM BAHADUR</u> : In times of jingoistic narratives where the political leadership loves to take credit of military manoeuvres through spin doctors, here comes a tale of true valour that encapsulates the exploits of India’s most beloved war general, Sam Manekshaw, whose contribution has not been celebrated enough in popular culture. Known for telling complex tales like Talvar (2015) and Raazi (2019), this time director Meghna Gulzar has mounted a relatively straightforward and adulatory biopic of a military strategist who never seemed to be in two minds and had the guts to speak truth to power.</h3>
+        <b><hr></b>
+        <img class="janwar" src="janwar.jpg" alt="Animal" height="175px" width="150px">
+        <h3 class="blood"><u>ANIMAL</u> : Blood is thicker than water according to the film’s protagonist. The safety and unity of family is sacrosanct no matter how twisted the relations. We are even led to believe that dysfunctional is better than broken.
+            Through an exhausting runtime of 3 hours, 21 minutes, comprising extreme bloodshed, testosterone and blatant misogyny, writer-director Sandeep Reddy Vanga, known for his controversial statements and thoughts, glorifies the alpha male once again through his Godfather-esque tale.</h3>
+            <br>
+        <b><hr></b>
+    </main>    
+    <div><footer class="foot">&copy Copyright Cineflix</footer></div>
+</body>
+</html>
